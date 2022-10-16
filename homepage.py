@@ -32,7 +32,7 @@ def load_home():
 		st.header("Welcome to GeoWater's Homepage")
 		col1, col2 = st.columns([6, 6])
 		with col1:
-			st.image("https://github.com/zkftyj/geowater_homepage/raw/main/animation.gif")
+			st.image("https://github.com/peironglinlin/streamlit_homepage/raw/main/animation.gif")
 
 		with col2:
 			st.markdown(f'<p style="background-color:#9FAAF8;color:#0C22BE;font-size:16px;border-radius:2%;padding: 15px 15px 15px 15px;">We study the geography of global inland waters, and we develop physically-based models, data-driven methods, and geographic information data infrastructures to improve our fundamental understanding of the river-climate and river-human relationships.</p>', unsafe_allow_html=True)
@@ -195,7 +195,7 @@ My research takes a holistic earth system view to understand the global inland w
 			st.header('Flood propagation speed influences flood peak')
 			st.info("Lin et al. (2018; JHM)")
 		with col2:
-			st.image('https://github.com/zkftyj/geowater_homepage/raw/main/animation.gif')
+			st.image('https://github.com/peironglinlin/streamlit_homepage/raw/main/animation.gif')
 			st.header('Large-scale fine-resolution flood simulation')
 			st.info("Lin et al. (2018a, JHM; 2018b, EMS; 2018c, JAWRA)")
 	with tab3:
